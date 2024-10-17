@@ -7,7 +7,7 @@ export default function LayoutDashboard({children}:{children:React.ReactElement}
             <div className="hidden xl:block w-80 h-full xl:fixed ">
                 <Sidebar />
             </div>
-            <div className="w-full xl:ml-80">
+            <div className="w-full h-full xl:ml-80">
                 <Navbar/>
                 <div className="p-6 bg-[#e6f0fe] dark:bg">
                     {children}

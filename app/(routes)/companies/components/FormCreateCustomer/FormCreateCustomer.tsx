@@ -151,7 +151,6 @@ export function FormCreateCustomer(props: FormCreateCustomerProps) {
                                     <FormControl>
                                         {photoUploaded ? (
                                             <p className="text-sm">Image Uploaded!</p>
-
                                         ):(
                                         <UploadButton 
                                             className="bg-slate-600/20 text-slate-800 rounded-lg outline-dotted outline-3"

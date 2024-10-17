@@ -18,11 +18,11 @@ export  function HeaderCompanies() {
 
     return (
         <div className="flex justify-between items-center">
-            <h2 className="text-2xl">List of companies</h2>
+            <h2 className="text-2xl">Modulo de Traduccion</h2>
             <Dialog open={openModalCreaate} onOpenChange={setOpenModalCreate}>
                 <DialogTrigger asChild>
                     <Button className="bg-black text-white">
-                        Create company
+                        Crear un Seña
                     </Button>            
                 </DialogTrigger>
                 <DialogContent className="sm:max-w-[625px]">
@@ -32,8 +32,7 @@ export  function HeaderCompanies() {
                             Create and configure your customer
                         </DialogDescription>
                     </DialogHeader>
-
-                    <FormCreateCustomer />
+                    {/* <FormCreateCustomer/> */}
                 </DialogContent>
             </Dialog>
         </div>

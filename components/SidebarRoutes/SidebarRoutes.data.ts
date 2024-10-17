@@ -7,8 +7,11 @@ import {
     CircleHelpIcon,
     Calendar,
     Circle,
+    Languages, // Added for translation module
+    Book, // Added for learning module
     icons
 } from 'lucide-react'
+
 export const dataGeneralSidebar = [
     {
         icon: PanelsTopLeft,
@@ -16,17 +19,17 @@ export const dataGeneralSidebar = [
         href: "/",
     },
     {
-        icon: Building2,
-        label: "Companies",
+        icon: Languages, // Icon for Modulo de Traducción
+        label: "Modulo de Traducción",
         href: "/companies",
     },
-    
     {
-        icon: Calendar,
-        label: "Calendar",
-        href: "/task",
+        icon: Book, // Icon for Modulo de Aprendizaje
+        label: "Modulo de Aprendizaje",
+        href: "/learning",
     }
 ];
+
 export const dataToolsSidebar = [
     {
         icon: CircleHelpIcon,
